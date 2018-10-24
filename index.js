@@ -1,4 +1,4 @@
-var katzDeliLine = [];
+let katzDeliLine = [];
 let newPerson = "";
 
 takeANumber(katzDeliLine,newPerson);

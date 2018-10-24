@@ -5,7 +5,7 @@ takeANumber(katzDeliLine,newPerson);
 function takeANumber(line,person) {
   let msg = "";
   var len = line.length;
-  line[len+1] = person;
+  line[len] = person;
   msg = `Welcome, ${person}. You are number ${len+1} in line.`
   return msg;
 }

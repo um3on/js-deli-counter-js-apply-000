@@ -10,7 +10,7 @@ var msg = "";
   return msg;
 }
 //*************************************************************************
-nowServing(katzDeliLine)
+nowServing(katzDeliLine);
 function nowServing(line) {
-  
+
 }

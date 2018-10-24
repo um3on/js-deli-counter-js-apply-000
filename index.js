@@ -9,5 +9,8 @@ var msg = "";
   msg = `Welcome, ${person}. You are number ${len+1} in line.`
   return msg;
 }
-
-function nowServing()
+//*************************************************************************
+nowServing(katzDeliLine)
+function nowServing(line) {
+  
+}

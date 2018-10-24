@@ -24,6 +24,7 @@ function nowServing(line) {
 }
 
 //*************************************************************************
+currentLine(katzDeliLine)
 function currentLine(line) {
 
 }

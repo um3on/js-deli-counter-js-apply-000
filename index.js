@@ -32,7 +32,7 @@ function currentLine(line) {
   }
   else {
     for(let i = 0; i<line.length;i++) {
-      msg += `${i+1}. line[i]` 
-    }  
+      msg += `${i+1}. line[i]`;
+    }
   }
 }

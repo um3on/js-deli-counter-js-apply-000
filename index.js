@@ -27,7 +27,7 @@ function nowServing(line) {
 currentLine(katzDeliLine);
 function currentLine(line) {
   let msg = "";
-  if(line.length === 0 ) {
+  if( line.length === 0 ) {
     msg = "The line is currently empty";
   }
   else {
@@ -37,5 +37,6 @@ function currentLine(line) {
     //Add the last person in line and end msg with a ".""
     msg += `${line.length-1}. line[line.length-1].`;
   }
+  return msg;
 }
 //*************************************************************************

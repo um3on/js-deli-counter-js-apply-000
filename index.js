@@ -27,5 +27,12 @@ function nowServing(line) {
 currentLine(katzDeliLine);
 function currentLine(line) {
   let msg = "";
-
+  if(line.length === 0 ) {
+    msg = "Current Line is empty";
+  }
+  else {
+    for(let i = 0; i<line.length;i++) {
+      msg += `${i+1}. line[i]` 
+    }  
+  }
 }

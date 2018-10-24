@@ -12,7 +12,7 @@ var msg = "";
 //*************************************************************************
 nowServing(katzDeliLine);
 function nowServing(line) {
-  var msg= "";
+  let msg= "";
   if(line.length === 0) {
     msg = "There is nobody waiting to be served!";
   }
@@ -24,7 +24,8 @@ function nowServing(line) {
 }
 
 //*************************************************************************
-currentLine(katzDeliLine)
+currentLine(katzDeliLine);
 function currentLine(line) {
+  let msg = "";
 
 }

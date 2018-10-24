@@ -31,8 +31,8 @@ function currentLine(line) {
     msg = "Current Line is empty";
   }
   else {
-    for(let i = 0; i<line.length;i++) {
-      msg += `${i+1}. line[i]`;
+    for(let i = 0; i<line.length-1;i++) {
+      msg += `${i+1}. line[i],`;
     }
   }
 }

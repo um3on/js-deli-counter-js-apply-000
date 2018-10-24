@@ -35,6 +35,6 @@ function currentLine(line) {
       msg += `${i+1}. line[i],`;
     }
     //Add the last person in line and end msg with a ".""
-    msg+ = ``
+    msg+ = `${line.length-1}. line[line.length-1].`
   }
 }

@@ -1,8 +1,7 @@
 var katzDeliLine = [];
-var currentLine = [];
 var newPerson = "";
 
-takeANumber(currentLine,newPerson);
+takeANumber(katzDeliLine,newPerson);
 function takeANumber(line,person) {
 var msg = "";
   var len = line.length();
@@ -10,3 +9,5 @@ var msg = "";
   msg = `Welcome, ${person}. You are number ${len+1} in line.`
   return msg;
 }
+
+function nowServing()

@@ -1,5 +1,5 @@
 var katzDeliLine = [];
-var newPerson = "";
+let newPerson = "";
 
 takeANumber(katzDeliLine,newPerson);
 function takeANumber(line,person) {

@@ -17,6 +17,5 @@ function nowServing(line) {
   }
   else {
     katzDeliLine.shift();
-
   }
 }

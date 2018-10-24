@@ -33,7 +33,7 @@ function currentLine(line) {
   else {
     msg = "The line is currently: ";
     for(let i = 0; i<line.length-1;i++) {
-      msg += `${i+1}. ${line[i]},`;
+      msg += `${i+1}. ${line[i]}, `;
     }
     //Add the last person in line and end msg with a ".""
     msg +=  ` ${line.length}. ${line[line.length-1]}`;

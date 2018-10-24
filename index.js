@@ -34,5 +34,7 @@ function currentLine(line) {
     for(let i = 0; i<line.length-1;i++) {
       msg += `${i+1}. line[i],`;
     }
+    //Add the last person in line and end msg with a ".""
+    msg+ = ``
   }
 }
